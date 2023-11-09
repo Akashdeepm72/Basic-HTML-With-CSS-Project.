@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #ffdb4d, #ff9933);
+}
+h1 {
+    font-family: 'Tangerine', cursive;
+    font-size: 36px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: lightcoral;
+}
+p {
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 5px;
+}
+h2 {
+    font-family: 'Tangerine', cursive;
+    font-size: 36px;
+    margin-bottom: 40px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: lightcoral;
+    padding: 20px;
+}

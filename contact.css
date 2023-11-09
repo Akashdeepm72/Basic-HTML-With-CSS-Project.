@@ -1,0 +1,29 @@
+body{
+    background-color: lightcoral;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+}
+form{
+    text-align: center;
+}
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+input[type="submit"] {
+    background-color: lightgoldenrodyellow;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    width: 105%;
+}
+input[type="submit"]:hover{
+    background-color: yellow;
+}

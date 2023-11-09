@@ -1,0 +1,50 @@
+body{
+   background-image: url("restaurantback.jpg"); /* Sets the background image for the entire page */
+   margin: 0%;  /* Removes margin from the body */
+}
+.container{  /* Styling for the container div */
+    background-image: url("Main_hall.jpg");
+    position:absolute;   /* Positions the container absolutely within the viewport */
+    border-style: solid; /* Adds a solid border to the container */
+    top: 0px;  /* Positions the container at the top of the viewport */
+    left: 15%;
+    background-position:right;  /* Sets the background image to be aligned to the right */
+    height: 80%;  /* Sets the height of the container to 80% of the viewport height */
+    width: 70%;
+    margin: 0 auto;  /* Centers the container horizontally within its parent */
+}
+.button{
+    background-color: antiquewhite;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;  /* Centers the text within the buttons */
+    width: 25%;
+    display: block;  /* Makes the buttons display as block-level elements */
+    border-radius: 6px;  /* Adds rounded corners to the buttons */
+    color: black;
+   
+}
+.button:hover{  /* Styling for button hover state */
+    background-color:lightcoral;
+}
+.button1{
+    position: absolute;
+    bottom: 18px;
+    left: 6%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.button2{
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transform: translateX(-50%);
+}
+.button3{
+    position: absolute;
+    bottom: 18px;
+    right: 4%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

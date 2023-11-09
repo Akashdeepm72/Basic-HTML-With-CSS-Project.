@@ -1,0 +1,99 @@
+body{
+    background-position: 100%;
+}
+h1{
+    background-color: lightcoral;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border: 2px solid black;
+}
+.container{
+    display: flex;
+    background-color: brown;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding: 15px;
+}
+.item{
+    background-size: cover;
+    background-position: center;
+    background-origin: border-box;
+    border-width: 5px;
+    border-style: solid;
+    width: 160px;
+    max-width: 135px;
+    height: 130px;
+    padding: 22px; 
+    margin: 34px; 
+}
+.button{
+    background-color: antiquewhite;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-top: 165px;
+}
+.item1{
+    background-image: url("Sandwich.jpg");
+}
+
+.item2{
+    background-image: url("pancake.jpg");
+}
+.item3{
+    background-image: url("herbal\ tea.jpg");
+}
+.button1{
+    padding: 15px;
+}
+.button1:hover{
+    background-color: yellow;
+}
+.item4{
+    background-image: url("Coffee.png");
+}
+.item5{
+    background-image: url("oats\ bowl.jpg");
+}
+h2{
+    background-color: lightcoral;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border: 2px solid black;
+    padding: 7px;
+}
+.container2{
+    display: flex;
+    background-color: brown;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding: 15px;
+}
+.button2{
+    background-color: antiquewhite;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-top:165px ;
+}
+.item6{
+    background-image: url("burgers.jpg");
+}
+.item7{
+    background-image: url("pav\ bhaji.jpeg");
+}
+.item8{
+    background-image:url("pizza.jpg")
+}
+.item9{
+    background-image: url("White-Sauce.jpg");
+}
+.item10{
+    background-image: url("sushi.jpg");
+}
